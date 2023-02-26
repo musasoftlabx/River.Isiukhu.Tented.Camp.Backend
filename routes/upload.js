@@ -9,7 +9,7 @@ const dayjs = require("dayjs");
 const { ticketsCollection } = require("../model/schema");
 
 // * Import Error Handler
-const ErrorHandler = require("../middleware/ErrorHandler");
+const ErrorHandler = require("../middleware/errorHandler");
 
 const uploadDir = "./public/images/snapshots/";
 
