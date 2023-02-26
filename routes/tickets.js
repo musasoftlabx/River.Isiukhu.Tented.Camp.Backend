@@ -28,7 +28,7 @@ dayjs.updateLocale("en", {
 const { ticketsCollection } = require("../model/schema");
 
 // * Import Error Handler
-const ErrorHandler = require("../middleware/ErrorHandler");
+const ErrorHandler = require("../middleware/errorHandler");
 
 // ? Handle GET method
 router.get("/", async (req, res) => {
