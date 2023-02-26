@@ -1,6 +1,15 @@
+# Additions
+#*.xlsx
+#*.pdf
+#*.pem
+#*.txt
+#*.png
+#*.jpeg
+#*.jpg
+#access.log
+#combined.log
+
 # Logs
-logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

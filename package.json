@@ -1,0 +1,44 @@
+{
+  "name": "ritc-backend",
+  "version": "1.0.0",
+  "description": "River Isiukhu Tented Camp Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Musa Mutetwi",
+  "license": "ISC",
+  "dependencies": {
+    "@diavrank/fcm-notification": "^2.3.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.3",
+    "errorhandler": "^1.5.1",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.4.1",
+    "formidable": "^2.0.1",
+    "http2-express-bridge": "^1.0.7",
+    "ioredis": "^5.2.4",
+    "jsonwebtoken": "^8.5.1",
+    "libreoffice-convert": "^1.4.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "node-base64-to-file": "^1.0.4",
+    "nodemailer": "^6.8.0",
+    "randomstring": "^1.2.3",
+    "validator": "^13.7.0",
+    "winston": "^3.8.2",
+    "winston-mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
